@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 // connect ke database
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb://localhost/todo-app-mern-stack', {
+mongoose.connect('mongodb://localhost/restapi_node-mongodb', {
     useNewUrlParser: true
 })
 
